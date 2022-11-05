@@ -22,7 +22,6 @@ int main(){
             counterCh++;
         }
     }
-    return true;
 
     for(int i = 0; i < counterCh; i++){
         count = 0;
