@@ -1,6 +1,6 @@
 #include <iostream>
 
-void findGreaterValue(int a, int b, int* big){
+void findGreaterValue(int a, int b, int* &big){
     if(a > b){
         *big = a;
         return;
